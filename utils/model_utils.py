@@ -9,8 +9,9 @@ import os
 MODELS_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "models")
 
 MODEL_FILES = {
-     "Logistic Regression": "logistic_regression.pkl",
-   
+    "Random Forest": "random_forest.pkl",
+    "Logistic Regression": "logistic_regression.pkl",
+    "SVM": "svm.pkl",
 }
 
 MODEL_METRICS = {
